@@ -776,7 +776,7 @@ input:checked + label span:last-child {
 
 .about-me {
   background: black;
-  padding: 70px 0px;
+  padding-top: 70px;
 }
 
 .about-me-text h1 {
@@ -808,7 +808,7 @@ input:checked + label span:last-child {
 /* ========= Start Experience ======= */
 
 .experience-skill {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .experience h3,
@@ -1362,7 +1362,7 @@ ul.experience-chart h4 {
 
 @media (max-width: 600px) {
   .about-me {
-    padding: 70px 0px 0px 0px;
+    padding-top: 70px;
   }
 }
 

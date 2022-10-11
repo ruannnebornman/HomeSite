@@ -11,11 +11,14 @@ hero:
     - 'CI/CD Hobiest'
     - 'Carnivore'
     - 'Linux Ranter'
+    - 'Pokemon Master'
+    - 'Planeswalker'
+    - 'Warrior of light'
 
   # hero background image
   bg_image: 'images/background.png'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/phone.png'
 
 ########################### About ##################################
 about:
@@ -69,7 +72,7 @@ skill:
     - name: 'Client- Customer- Team- Management'
       percentage: '95%'
 
-    - name: 'Humbleness'
+    - name: 'Humbleness while creating this website'
       percentage: '10%'
 
     - name: 'Jokes'
@@ -106,7 +109,7 @@ portfolio:
   portfolio_list:
     - name: NDA Projects
       image: 'images/portfolio/nda.png'
-      description: As you can imagine most projects, solutions and tools are best left as they are
+      description: I don't know what you where looking for when you clicked this but there is realllllly, nothing here,,,
 
     - name: Data Aggregator (DBI)
       image: 'images/portfolio/DBI.png'

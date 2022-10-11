@@ -35,7 +35,7 @@ link = "plugins/hugrid/hugrid.min.js"
 # main menu
 [[menu.main]]
 name = "Home"
-URL = "#home"
+URL = "#header"
 weight = 1
 
 [[menu.main]]
@@ -44,22 +44,24 @@ URL = "#about"
 weight = 2
 
 [[menu.main]]
+name = "Experience"
+URL = "#experience-skill"
+weight = 3
+
+[[menu.main]]
 name = "Portfolio"
 URL = "#portfolio"
-weight = 3
+weight = 4
 
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.svg"
-logo_dark = "images/logo-dark.svg"
-copyright = "Copyright Burton Guster &copy;"
+logo_light = "images/logo.png"
+logo_dark = "images/logo-dark.png"
 # Meta data
 description = "Personal Portfolio"
-author = "Burton Guster"
-favicon = "images/favicon.png"
-google_analytics = "G-ABCDEFG123"
-
+author = "Ruanne Bornman"
+favicon = "images/favicon.svg"
 
 # Preloader
 [params.preloader]
@@ -70,19 +72,11 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fab fa-github"
-link = "https://github.com/tylerjlawson"
-
-[[params.social]]
-icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+link = "https://github.com/ruannnebornman"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:guster@burton.com"
-
-[[params.social]]
-icon = "fab fa-medium"
-link = "https://medium.com/@gusburton"
+link = "mailto:work@ruannebornman.com"
 
 contentDir = "content/english"
 weight = 1

@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #1f1f1f;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -118,7 +118,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
-	color: #4d4d4d;
+	color: white;
 }
 
 .og-loading {

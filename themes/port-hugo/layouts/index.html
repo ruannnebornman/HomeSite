@@ -38,7 +38,17 @@
       {{ end }}
     </div>
     {{ end }} {{ end }}
+  </div>
+</section>
+<!-- =============================
+      End About Me
+    =============================== -->
 
+<!-- =============================
+       Start experience
+    =============================== -->
+<section class="about-me" id="experience-skill">
+  <div class="container">
     <div class="row experience-skill">
       {{ if .Site.Data.content.experience.enable }} {{ with
       .Site.Data.content.experience }}
@@ -47,18 +57,18 @@
         <ul class="experience-chart">
           {{ range .experience_list }}
           {{ if not (eq .enable false) }}
-            <li>
-              <div class="single-experience">
-                <h3>{{ .name | markdownify }}</h3>
-                {{ with .company }}
-                <span>{{ . | markdownify }} |</span>
-                {{ end }} {{ with .duration }}
-                <span>{{ . | markdownify }}</span>
-                {{ end }} {{ with .content }}
-                <p>{{ . | markdownify }}</p>
-                {{ end }}
-              </div>
-            </li>
+          <li>
+            <div class="single-experience">
+              <h3>{{ .name | markdownify }}</h3>
+              {{ with .company }}
+              <span>{{ . | markdownify }} |</span>
+              {{ end }} {{ with .duration }}
+              <span>{{ . | markdownify }}</span>
+              {{ end }} {{ with .content }}
+              <p>{{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          </li>
           {{ end }}
           {{ end }}
         </ul>
@@ -86,9 +96,8 @@
   </div>
 </section>
 <!-- =============================
-      End About Me
+      End experience
     =============================== -->
-
 {{ if .Site.Data.content.funfacts.enable }} {{ with .Site.Data.content.funfacts
 }}
 <div class="fun-facts container pt-5">

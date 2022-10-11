@@ -17,6 +17,8 @@ h1 {
 body {
   font-family: 'Rubik', sans-serif;
   height: 100%;
+  background: black;
+  color: white;
 }
 
 .no-js body {
@@ -276,7 +278,7 @@ body {
 
 .button {
   text-decoration: none;
-  color: #4d4d4d;
+  color: white;
   font-weight: 700;
   margin-top: 15px;
   display: inline-block;
@@ -559,7 +561,6 @@ input:checked + label span:last-child {
   left: 0;
   right: 0;
   height: 55px;
-  /*background: #333;*/
   align-items: center;
   justify-content: center;
   font-weight: bold;
@@ -632,7 +633,7 @@ input:checked + label span:last-child {
 }
 
 .menu-item-transparent.menu-item a {
-  color: #6f6f6f;
+  color: gray;
 }
 
 /* ========= Mobile Menu ======= */
@@ -689,7 +690,7 @@ input:checked + label span:last-child {
 
 .mobile-menu-icons .fa:hover {
   transform: scale(1.2);
-  color: #6f6f6f;
+  color: gray;
 }
 
 .mobile-menu-nav {
@@ -774,26 +775,26 @@ input:checked + label span:last-child {
 ----------------------------------*/
 
 .about-me {
-  background: #fff;
+  background: black;
   padding: 70px 0px;
 }
 
 .about-me-text h1 {
   position: relative;
-  color: #6f6f6f;
+  color: gray;
   font-weight: 700;
   letter-spacing: 2px;
 }
 
 .about-me-text p {
-  color: #6f6f6f;
+  color: gray;
   font-size: 16px;
 }
 
 .download-cv:hover,
 .download-cv:focus {
   text-decoration: none;
-  color: #4d4d4d;
+  color: white;
 }
 
 .about-me-images img {
@@ -812,7 +813,7 @@ input:checked + label span:last-child {
 
 .experience h3,
 .skill h3 {
-  color: #6f6f6f;
+  color: gray;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -857,16 +858,16 @@ ul.experience-chart h4 {
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 700;
-  color: #4d4d4d;
+  color: white;
 }
 
 .experience-chart li span {
   font-weight: 700;
-  color: #6f6f6f;
+  color: gray;
 }
 
 .experience-chart li p {
-  color: #6f6f6f;
+  color: gray;
 }
 
 .single-experience {
@@ -897,7 +898,7 @@ ul.experience-chart h4 {
 .skillbar-title,
 .skill-bar-percent {
   font-size: 16px;
-  color: #4d4d4d;
+  color: white;
   font-weight: 700;
   display: inline-block;
   margin-bottom: 7px;
@@ -924,12 +925,12 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 .portfolio {
-  background: #fff;
+  background: black;
   padding: 70px 0px;
 }
 
 .portfolio h1 {
-  color: #6f6f6f;
+  color: gray;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
@@ -967,7 +968,7 @@ ul.experience-chart h4 {
   text-align: center;
   font-size: 14px;
   margin-top: -10px;
-  color: #6f6f6f;
+  color: gray;
   font-weight: 700;
 }
 

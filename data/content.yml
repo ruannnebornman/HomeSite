@@ -28,7 +28,7 @@ about:
   content: Hi, thanks for taking a look around. If you have any questions feel free to reach out via [Email](#contact)!
   button:
     enable: true
-    label: 'DOWNLOAD MY RESUME (ITS QUITE OLD THOUGH)'
+    label: 'DOWNLOAD MY RESUME'
     link: #https://drive.proton.me/urls/TAKY4566AW#poiilVwzFXKW
     icon: 'fa-download'
 
